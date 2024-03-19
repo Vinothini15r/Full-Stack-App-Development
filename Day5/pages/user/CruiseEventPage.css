@@ -1,0 +1,63 @@
+/* CruiseEventPage.css */
+
+/* Style for the main container */
+.cruise-events-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure page takes at least full viewport height */
+}
+
+/* Style for the activity section */
+.activity {
+    padding: 20px;
+}
+
+/* Style for the containers containing video */
+.ev-container-row {
+    display: flex;
+    flex-wrap: wrap; /* Allow containers to wrap to the next line */
+    margin-bottom: -20px; /* Counteract margin added by individual containers */
+}
+
+.ev-container {
+    flex: 1; /* Allow containers to expand equally */
+    padding: 20px;
+    background-color: white; /* Example background color */
+    border-radius: 5px;
+    margin-bottom: 20px; /* Add margin between containers */
+}
+
+/* Style for the heading */
+.ev-container h1 {
+    font-size: 28px; /* Increase font size for headers */
+    margin-bottom: 10px;
+}
+
+/* Style for the description */
+.ev-container p {
+    font-size: 18px; /* Increase font size slightly for descriptions */
+    margin-bottom: 20px;
+}
+
+/* Style for the video */
+.activity-video {
+    width: 100%; /* Set the width to fill the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+}
+
+/* Style for the Book Now button */
+.book-now-btn {
+    background-color: #007bff; /* Example button color */
+    color: #fff; /* Example text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.book-now-btn:hover {
+    background-color: #0056b3; /* Example button color on hover */
+}
