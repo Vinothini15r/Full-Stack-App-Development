@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "aqua.properties.secret_key",
+    "type": "java.lang.String",
+    "description": "A description for 'aqua.properties.secret_key'"
+  },
+  {
+    "name": "aqua.properties.expiration",
+    "type": "java.lang.String",
+    "description": "A description for 'aqua.properties.expiration'"
+  },
+  {
+    "name": "aqua.swagger.contact.name",
+    "type": "java.lang.String",
+    "description": "A description for 'aqua.swagger.contact.name'"
+  },
+  {
+    "name": "aqua.swagger.contact.url",
+    "type": "java.lang.String",
+    "description": "A description for 'aqua.swagger.contact.url'"
+  },
+  {
+    "name": "aqua.swagger.contact.email",
+    "type": "java.lang.String",
+    "description": "A description for 'aqua.swagger.contact.email'"
+  }
+]}
